@@ -10,7 +10,7 @@ const Home = () => {
         <img
           src={myPhoto}
           alt="Nourin"
-          className="w-48 h-48 rounded-full object-cover border-4 border-white shadow-lg"
+          className="w-80 h-80 md:w-[25rem] md:h-[25rem] rounded-full object-cover border-4 border-white shadow-lg"
         />
       </div>
 
