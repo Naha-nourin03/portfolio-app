@@ -3,16 +3,16 @@ import React from 'react';
 const Project = () => {
   const projects = [
     {
-      title: "MERN Stack Job Application Website",
+      title: "Job Application Website",
       description:
         "A full-stack platform where users can browse and apply for jobs, while admins can manage job postings. Features authentication, applied jobs tracking, and an admin dashboard.",
-      tech: "MongoDB, Express.js, React, Node.js, Tailwind CSS",
+      tech: "MongoDB, Express.js, React, Node.js, MUI",
     },
     {
-      title: "Hidden Spots Finder App",
+      title: "Let's GO!",
       description:
         "An application that helps users discover hidden and less popular locations. Includes map integration, location adding (requires login), and environmental campaigns for restoration.",
-      tech: "React, Leaflet.js, Firebase, Tailwind CSS",
+      tech: "React.js, Express.js, Node.js, Mongo DB, MUI, Cloudinary,",
     },
     {
       title: "Movie Review App with Express.js Backend",
@@ -21,15 +21,15 @@ const Project = () => {
       tech: "Express.js, Node.js, React, MongoDB",
     },
     {
-      title: "Let's Go! Data Visualization Tool",
+      title: "Financial Assistance using Big Data",
       description:
         "A Python-based project that uses Matplotlib to visualize data trends for better decision-making. Focused on clear, insightful graphs for analytics purposes.",
-      tech: "Python, Matplotlib, Pandas",
+      tech: "Python, Matplotlib, Flask",
     },
   ];
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-200 to-purple-200 p-6">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-orange-100 to-sky-900  p-6">
       <h1 className="text-4xl font-bold text-gray-800 mb-10">Projects</h1>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl">
         {projects.map((project, index) => (
